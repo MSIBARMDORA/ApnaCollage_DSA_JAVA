@@ -11,7 +11,25 @@
 			"installMaven": "false",
 			"installGradle": "false"
 		}
-	}
+	},
+
+	"customizations": {
+        "vscode": {
+            "extensions": [
+                "esbenp.prettier-vscode",
+                "vscode-icons-team.vscode-icons",
+                "wayou.vscode-todo-highlight",
+                "formulahendry.code-runner",
+                "equinusocio.vsc-material-theme",
+                "oderwat.indent-rainbow"
+            ],
+            "settings": {
+                // "editor.fontSize": 32,
+                // "terminal.integrated.fontSize": 24,
+                // "editor.wordWrap": "on"
+            }
+        }
+    }
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
